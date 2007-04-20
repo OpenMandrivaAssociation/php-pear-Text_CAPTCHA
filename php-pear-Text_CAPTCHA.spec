@@ -5,7 +5,7 @@
 
 Summary:	%{_pearname} - generation of CAPTCHA imgaes
 Name:		php-pear-%{_pearname}
-Version:	0.1.6
+Version:	0.2.1
 Release:	%mkrel 1
 License:	PHP License
 Group:		Development/PHP
