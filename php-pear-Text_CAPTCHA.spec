@@ -5,11 +5,11 @@
 
 Summary:	%{_pearname} - generation of CAPTCHA imgaes
 Name:		php-pear-%{_pearname}
-Version:	0.2.1
-Release:	%mkrel 3
+Version:	0.3.1
+Release:	%mkrel 1
 License:	PHP License
 Group:		Development/PHP
-Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tar.bz2
+Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 URL:		http://pear.php.net/package/Text_CAPTCHA/
 Requires(post): php-pear
 Requires(preun): php-pear
