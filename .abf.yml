@@ -1,5 +1,6 @@
 removed_sources:
   Text_CAPTCHA-0.3.1.tgz: 5f2b06782bfa26aeba2a3fdfcdc36bd51e10f9b5
   Text_CAPTCHA-0.4.6.tgz: fe04d1fc1808785f11d0ec2c4d31bb9788c0d5e9
-sources:
   Text_CAPTCHA-0.5.0.tgz: 324d7219bb7f93f80e7de886a78888d954957ecd
+sources:
+  Text_CAPTCHA-1.0.2.tgz: 39a88a13107a1e63d8094c41fd83bfb8b545067f

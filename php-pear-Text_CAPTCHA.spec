@@ -1,9 +1,8 @@
 %define		_class		Text
 %define		_subclass	CAPTCHA
 %define		upstream_name	%{_class}_%{_subclass}
-
 Name:		php-pear-%{upstream_name}
-Version:	0.5.0
+Version:	1.0.2
 Release:	1
 Summary:	Generation of CAPTCHA imgaes
 License:	PHP License
@@ -41,7 +40,6 @@ install -m 644 %{upstream_name}.xml %{buildroot}%{_datadir}/pear/packages
 
 
 %files
-%defattr(-,root,root)
 %doc %{upstream_name}-%{version}/examples
 %{_datadir}/pear/%{_class}
 %{_datadir}/pear/packages/%{upstream_name}.xml
@@ -121,6 +119,7 @@ install -m 644 %{upstream_name}.xml %{buildroot}%{_datadir}/pear/packages
 
 * Tue Jul 19 2005 Oden Eriksson <oeriksson@mandriva.com> 0.1.1-1mdk
 - initial Mandriva package (PLD import)
+
 
 
 
