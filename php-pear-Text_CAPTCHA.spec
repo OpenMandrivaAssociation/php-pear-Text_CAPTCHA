@@ -3,7 +3,7 @@
 %define		upstream_name	%{_class}_%{_subclass}
 Name:		php-pear-%{upstream_name}
 Version:	1.0.2
-Release:	1
+Release:	2
 Summary:	Generation of CAPTCHA imgaes
 License:	PHP License
 Group:		Development/PHP
